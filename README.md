@@ -4,6 +4,8 @@ CAGE is a very simple but powerful implementation of genetic algorithms in C++. 
 
 It can be used for real-world applications, for example in [this paper](https://arxiv.org/abs/2008.02641).
 
+CAGE is particularly suited for discrete problems that numerical optimization methods (like [scipy.optimize.minimize](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html)) cannot handle. If your cost function is very expansive and quite regular, you might want use smarter algorithms (e.g. [optuna](https://github.com/optuna/optuna)).
+
 ## Usage
 
 `cage.hpp` provides the following function:
