@@ -1,6 +1,6 @@
 # CAGE: C++ Algorithms for Genetic Evolution
 
-CAGE is a very simple but powerful implementation of genetic algorithms in C++. In the standard (1+λ) ES, each offspring is mutatedfrom the population, whereas our offsprings are iteratively mutated, each one being the mutation ofthe previous. We apply restarts according to the Luby sequence.
+CAGE is a very simple but powerful implementation of genetic algorithms in C++. In the standard (1+λ) ES, each offspring is mutated from the population, whereas our offsprings are iteratively mutated, each one being the mutation ofthe previous. We apply restarts according to the Luby sequence.
 
 It can be used for real-world applications, for example in [this paper](https://arxiv.org/abs/2008.02641).
 
